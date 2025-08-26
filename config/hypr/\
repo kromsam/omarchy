@@ -1,7 +1,9 @@
 # Learn how to configure Hyprland: https://wiki.hyprland.org/Configuring/
 
+# Use SUPER key as default modifier
+$mainMod = SUPER
+
 # Use defaults Omarchy defaults (but don't edit these directly!)
-source = ~/.local/share/omarchy/default/hypr/modkey.conf
 source = ~/.local/share/omarchy/default/hypr/autostart.conf
 source = ~/.local/share/omarchy/default/hypr/bindings/media.conf
 source = ~/.local/share/omarchy/default/hypr/bindings/tiling.conf
@@ -17,4 +19,4 @@ source = ~/.config/hypr/monitors.conf
 source = ~/.config/hypr/input.conf
 source = ~/.config/hypr/bindings.conf
 source = ~/.config/hypr/envs.conf
-source = ~/.config/hypr/autostart.conf
+source = ~/.config/hypr/autostart.cnf
